@@ -1,8 +1,8 @@
 //
-//  uva10079.cpp
+//  la5028.cpp
 //  AOAPC-I
 //
-//  Created by apple on 2019/8/17.
+//  Created by apple on 2019/8/18.
 //  Copyright © 2019 huasheng. All rights reserved.
 //
 
@@ -12,25 +12,13 @@
 #include <math.h>
 #include <string.h>
 
-// 切披萨 Accepted
+// 
 
 using namespace std;
 
-typedef unsigned long long ull;
-
-const int maxn = 210000010;
-int n;
-ull d[maxn];
-
-void init() {
-    
-    d[0] = 1;
-    for (int i = 1; i < maxn; i++)
-        d[i] = d[i-1] + i;
-}
-
 void solve() {
-    cout << d[n] << endl;
+
+    for (int i = 3; i <= 10000; i++) cout << i << endl;
 }
 
 int main() {
@@ -41,10 +29,7 @@ int main() {
     freopen("/Users/apple/Develop/AOAPC-I/AOAPC-I/Inputs/output","w",stdout);
 #endif
 
-    init();
-    while (cin >> n && n >= 0) {
-        solve();
-    }
+    solve();
 
     return 0;
 }

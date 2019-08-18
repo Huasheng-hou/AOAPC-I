@@ -71,10 +71,12 @@ void solve() {
 
 int main() {
 
+#ifdef UVA
     freopen("/Users/apple/Develop/AOAPC-I/AOAPC-I/Inputs/input","r",stdin);
     remove("/Users/apple/Develop/AOAPC-I/AOAPC-I/Inputs/output");
     freopen("/Users/apple/Develop/AOAPC-I/AOAPC-I/Inputs/output","w",stdout);
-
+#endif
+    
     while (cin >> n && n > 0) {
         kase++; solve();
     }

@@ -60,7 +60,6 @@ int main() {
 #endif
 
     while (cin >> n >> k && (n > 0 || k > 0)) {
-//        if (k == 0) cout << 1 << "\n";
         solve();
     }
 

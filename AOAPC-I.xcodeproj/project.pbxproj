@@ -7,15 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		181871F422F9A7D000853E29 /* Strcmp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 181871F322F9A7D000853E29 /* Strcmp.cpp */; };
-		189E89C022FA6F8000E92DB7 /* Substring.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 189E89BF22FA6F8000E92DB7 /* Substring.cpp */; };
-		189E89C222FAAEC600E92DB7 /* MatrixMatcher.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 189E89C122FAAEC600E92DB7 /* MatrixMatcher.cpp */; };
-		189E89C522FAB62F00E92DB7 /* GuessStructure.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 189E89C422FAB62F00E92DB7 /* GuessStructure.cpp */; };
-		189E89C722FC07AA00E92DB7 /* EasyProblem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 189E89C622FC07AA00E92DB7 /* EasyProblem.cpp */; };
-		189E89CB22FC088C00E92DB7 /* PingPong.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 189E89CA22FC088C00E92DB7 /* PingPong.cpp */; };
-		189E89CD22FC746800E92DB7 /* FrequentValue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 189E89CC22FC746800E92DB7 /* FrequentValue.cpp */; };
-		189E89CF22FC97C100E92DB7 /* uva12299.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 189E89CE22FC97C100E92DB7 /* uva12299.cpp */; };
-		18C0CEA022F99D8F009E442D /* RememberWord.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18C0CE9F22F99D8F009E442D /* RememberWord.cpp */; };
+		186B7A2B2309832A00582A90 /* la4064.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 186176B223068AC400B69677 /* la4064.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -36,6 +28,11 @@
 		183AE71D2308366F00623240 /* uva10128.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = uva10128.cpp; sourceTree = "<group>"; };
 		183AE7212308420F00623240 /* uva10079.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = uva10079.cpp; sourceTree = "<group>"; };
 		1858F7CE230901AF00B3ED76 /* uva10157.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = uva10157.cpp; sourceTree = "<group>"; };
+		1858F7D0230924D700B3ED76 /* uva10884.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = uva10884.cpp; sourceTree = "<group>"; };
+		1858F7D22309368100B3ED76 /* uva10497.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = uva10497.cpp; sourceTree = "<group>"; };
+		1858F7D42309473C00B3ED76 /* uva417.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = uva417.cpp; sourceTree = "<group>"; };
+		1858F7D623095C9600B3ED76 /* uva580.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = uva580.cpp; sourceTree = "<group>"; };
+		1858F7D9230960E200B3ED76 /* uva10294.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = uva10294.cpp; sourceTree = "<group>"; };
 		1860FA60230254EC00602274 /* uva12307.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = uva12307.cpp; sourceTree = "<group>"; };
 		1860FA622302885B00602274 /* la4728.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = la4728.cpp; sourceTree = "<group>"; };
 		1860FA682302EAD900602274 /* la3218.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = la3218.cpp; sourceTree = "<group>"; };
@@ -65,6 +62,8 @@
 		1865320223004D840001B1A0 /* la4992.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = la4992.cpp; sourceTree = "<group>"; };
 		18653204230052780001B1A0 /* output */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = output; sourceTree = "<group>"; };
 		18656C3622FD783F000DF48C /* uva11168.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = uva11168.cpp; sourceTree = "<group>"; };
+		186B7A2723097B8400582A90 /* uva11768.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = uva11768.cpp; sourceTree = "<group>"; };
+		186B7A29230981B900582A90 /* la5028.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = la5028.cpp; sourceTree = "<group>"; };
 		187E098722FD6B8F001F0D7F /* uva10652.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = uva10652.cpp; sourceTree = "<group>"; };
 		188B47892303A25600966358 /* uva11806.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = uva11806.cpp; sourceTree = "<group>"; };
 		188B47CC2304114800966358 /* la3516.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = la3516.cpp; sourceTree = "<group>"; };
@@ -94,6 +93,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1858F7D8230960CB00B3ED76 /* Permutation */ = {
+			isa = PBXGroup;
+			children = (
+				1858F7D9230960E200B3ED76 /* uva10294.cpp */,
+			);
+			path = Permutation;
+			sourceTree = "<group>";
+		};
 		1860FA6A2303182200602274 /* Chapter 1. Algorithm Design */ = {
 			isa = PBXGroup;
 			children = (
@@ -114,6 +121,7 @@
 			children = (
 				186531F5230011B60001B1A0 /* Counting */,
 				186531FC230033C40001B1A0 /* Number Theory */,
+				1858F7D8230960CB00B3ED76 /* Permutation */,
 			);
 			path = "Chapter 2. Mathematics";
 			sourceTree = "<group>";
@@ -128,12 +136,17 @@
 				186176B223068AC400B69677 /* la4064.cpp */,
 				186176BF2306E87B00B69677 /* la4258.cpp */,
 				186176B62306B41F00B69677 /* la4390.cpp */,
+				186B7A29230981B900582A90 /* la5028.cpp */,
 				186176A823058A2500B69677 /* la5846.cpp */,
+				1858F7D42309473C00B3ED76 /* uva417.cpp */,
+				1858F7D623095C9600B3ED76 /* uva580.cpp */,
 				183AE7212308420F00623240 /* uva10079.cpp */,
 				183AE71D2308366F00623240 /* uva10128.cpp */,
 				1858F7CE230901AF00B3ED76 /* uva10157.cpp */,
 				183AE71B2308207200623240 /* uva10237.cpp */,
+				1858F7D22309368100B3ED76 /* uva10497.cpp */,
 				186176A52305527A00B69677 /* uva10883.cpp */,
+				1858F7D0230924D700B3ED76 /* uva10884.cpp */,
 				186176A3230440E000B69677 /* uva11038.cpp */,
 				186176A123041C4400B69677 /* uva11361.cpp */,
 				186531F823001BA80001B1A0 /* uva11401.cpp */,
@@ -151,6 +164,7 @@
 			children = (
 				186531FD230033E40001B1A0 /* la4119.cpp */,
 				186176B42306AAFB00B69677 /* uva10673.cpp */,
+				186B7A2723097B8400582A90 /* uva11768.cpp */,
 			);
 			path = "Number Theory";
 			sourceTree = "<group>";
@@ -326,15 +340,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				189E89C722FC07AA00E92DB7 /* EasyProblem.cpp in Sources */,
-				189E89CD22FC746800E92DB7 /* FrequentValue.cpp in Sources */,
-				189E89CF22FC97C100E92DB7 /* uva12299.cpp in Sources */,
-				181871F422F9A7D000853E29 /* Strcmp.cpp in Sources */,
-				189E89C522FAB62F00E92DB7 /* GuessStructure.cpp in Sources */,
-				18C0CEA022F99D8F009E442D /* RememberWord.cpp in Sources */,
-				189E89C222FAAEC600E92DB7 /* MatrixMatcher.cpp in Sources */,
-				189E89C022FA6F8000E92DB7 /* Substring.cpp in Sources */,
-				189E89CB22FC088C00E92DB7 /* PingPong.cpp in Sources */,
+				186B7A2B2309832A00582A90 /* la4064.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

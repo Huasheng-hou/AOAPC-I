@@ -37,7 +37,6 @@ void solve() {
 
     cin >> n >> p >> r;
     cout << d[n][p][r] << "\n";
-//    cout << "fuck1";
 }
 
 int main() {

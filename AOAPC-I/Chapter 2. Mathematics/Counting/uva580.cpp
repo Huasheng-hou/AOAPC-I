@@ -1,8 +1,8 @@
 //
-//  uva10079.cpp
+//  uva580.cpp
 //  AOAPC-I
 //
-//  Created by apple on 2019/8/17.
+//  Created by apple on 2019/8/18.
 //  Copyright © 2019 huasheng. All rights reserved.
 //
 
@@ -12,25 +12,28 @@
 #include <math.h>
 #include <string.h>
 
-// 切披萨 Accepted
+// Accepted
 
 using namespace std;
 
-typedef unsigned long long ull;
-
-const int maxn = 210000010;
-int n;
-ull d[maxn];
+const int maxl = 32;
+int n, d[maxl][3];
 
 void init() {
     
-    d[0] = 1;
-    for (int i = 1; i < maxn; i++)
-        d[i] = d[i-1] + i;
+    d[1][0] = 1; d[1][1] = 1; d[1][2] = 0;
+    for (int i = 2; i < maxl; i++) {
+        
+        d[i][0] = d[i-1][0] + d[i-1][1] + d[i-1][2];
+        d[i][1] = d[i-1][0];
+        d[i][2] = d[i-1][1];
+    }
 }
 
 void solve() {
-    cout << d[n] << endl;
+
+    int ans = (1<<n) - d[n][0] - d[n][1] - d[n][2];
+    cout << ans << endl;
 }
 
 int main() {
@@ -42,9 +45,7 @@ int main() {
 #endif
 
     init();
-    while (cin >> n && n >= 0) {
-        solve();
-    }
+    while (cin >> n && n > 0) solve();
 
     return 0;
 }
